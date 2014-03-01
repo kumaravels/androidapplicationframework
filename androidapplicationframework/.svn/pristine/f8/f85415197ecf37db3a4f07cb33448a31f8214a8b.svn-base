@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields>
+	<application_name>Patient Information System</application_name>
+	<screen_name>Data Entry Screen</screen_name>
+	<field>
+		<fieldname>Patient Name</fieldname>
+		<fieldtype>normaltext</fieldtype>
+	</field>
+	<field>
+		<fieldname>Patient Age</fieldname>
+		<fieldtype>numbertext</fieldtype>
+	</field>
+	<field>
+		<fieldname>Sex</fieldname>
+		<fieldtype>radiobutton</fieldtype>
+		<values>
+			<fieldvalue0>Male</fieldvalue0>
+			<fieldvalue1>Female</fieldvalue1>
+		</values>
+	</field>
+	<field>
+		<fieldname>Patient Phone</fieldname>
+		<fieldtype>phonetext</fieldtype>
+	</field>
+	<field>
+		<fieldname>Patient Email</fieldname>
+		<fieldtype>emailtext</fieldtype>
+	</field>
+	<field>
+		<fieldname>Patient Diseases</fieldname>
+		<fieldtype>checkbox</fieldtype>
+		<values>
+			<fieldvalue0>Diabetes</fieldvalue0>
+			<fieldvalue1>Heart Related</fieldvalue1>
+			<fieldvalue2>Back Pain</fieldvalue2>
+			<fieldvalue3>Kidney Related</fieldvalue3>
+			<fieldvalue4>Eye Related</fieldvalue4>
+		</values>
+	</field>
+	<field>
+		<fieldname>Last Consultation</fieldname>
+		<fieldtype>datepicker</fieldtype>
+	</field>
+	<field>
+		<fieldname>Next Appointment</fieldname>
+		<fieldtype>datepicker</fieldtype>
+	</field>
+	<field>
+		<fieldname>Patient Summary</fieldname>
+		<fieldtype>multilinetext</fieldtype>
+	</field>
+</fields>
